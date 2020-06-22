@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Mug</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+        <nav>
+            <div class="fl-left">
+                <ul>
+                    <li><a href="">MUG<img src="" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="fl-right">
+                <ul>
+                    <li><a class="link-salmon" href="#"><img src="images/home-run.svg" alt="Home" width="24px"></a></li>
+                    <li><span>Dashboard</span></li>
+
+                </ul>
+            </div>
+            <div class="space-between">
+                <ul class="flex">
+                    <li><a class="link-salmon" href=""><img src="images/bell.svg" alt="Notification" width="24px"></a></li>
+                    <li><a class="link-salmon" href=""><img src="images/comment.svg" width="24px" alt=""></a></li>
+                   
+
+                </ul>
+                <div class="inline profile" onclick="show()">
+                    <div class="photo-profile"><a class="user-photo " href="#"><img src="images/blue.gif" alt="Home" width="45px"></a></div>
+                    <div class="name-profile"><a class="link" href="#">Lamp</a></div>
+                 
+                </div>    
+            </div>
+        </nav>
+        <div class="form-profile" id="profile1">
+            <img class="svg-profile" src="./images/down-arrow.svg" alt="">
+            <div class="inline profile-using">
+                <div class="photo-profile"><a class="user-photo " href="#"><img src="images/blue.gif" alt="Home" width="45px"></a></div>
+                <div class="name-profile">
+                    <div><a href="">Lamp</a></div>
+                    <span class="user-id">@lamp</span>
+                </div>
+            </div>
+            <hr>
+            <div class="other-account">
+                <a href="">Adicionar uma conta existente</a>
+            </div>
+            <hr>
+            <div class="profile-logout">
+            <a href="">Sair de @llamp</a>
+            </div>
+        </div>
+            <div class="dashboardGrid">
+                <div class="column-white d-sm-none d-md-none">
+                        <div class="column-title space-between">
+                            <div class="main-span"><span>SUGESTÃO DE AMIGOS</span></div>
+                            <div class="main-span-rose"><span>MAIS</span></div>
+                        </div> 
+                    <div>
+                        <div class="recommended-user">
+                            <div class="user-photo text-center"><a href=""><img src="images/pink.png" alt="User photo" width="55px"></a>
+                                 <span></span>
+                            </div>
+                            <div class="user-info space-between">
+                                <div class="name-id"><a>Mari</a>
+                                <span class="user-id">@marisobr</span>
+                                </div>
+                                <div><button class="button">Seguir</button></div>
+                            </div> 
+                            <div class="user-bio">
+                                <div><span>Muito amor sempre, só que as vezes ódio</span></div>
+                            </div>
+                        </div>
+                        <div class="recommended-user">
+                            <div class="user-photo text-center"><a href=""><img src="images/red.gif" alt="User photo" width="55px"></a>
+                                 <span></span>
+                            </div>
+                            <div class="user-info space-between">
+                                <div class="name-id"><a>Sig</a>
+                                <span class="user-id">@SigChapadin</span>
+                                </div>
+                                <div><button class="following-button">Seguindo</button></div>
+                            </div> 
+                            <div class="user-bio">
+                                <div><span>Quero muito mais dinheiro do que uma fábrica de dinheiro</span></div>
+                            </div>
+                        </div>
+                        <div class="recommended-user">
+                            <div class="user-photo text-center"><a href=""><img src="images/green.gif" alt="User photo" width="55px"></a>
+    
+                            </div>
+                            <div class="user-info space-between">
+                                <div class="name-id"><a>Fortuna</a>
+                                <span class="user-id">@MVFortuna</span>
+                                </div>
+                                <div><button class="button">Seguir</button></div>
+                            </div> 
+                            <div class="user-bio">
+                                <div><span>Vou parar de comer lanche!</span></div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="column-white content-column">
+                    <div class="create-content">
+                        <div class="content-photo">
+                            <div class="user-photo"><a href=""><img src="images/blue.gif" alt="" width="55px"></a></div>
+                        
+                    </div>
+                    <div class="post">
+                            <div class="text-content" id="text-content">
+
+                                <div id="placeholderID" role="textbox" aria-label="Faça seu pensamento" contentEditable="true"  >
+                                       
+                                </div>  
+                            </div>
+                            <div class="post-option">       
+                                <div>   
+                                    <div><a><img src="./images/image.svg" width="24px" alt=""></a></div>
+                                    <div><a><img src="./images/table.svg" width="24px" alt=""></a></div>
+                                   <div><a><img src="./images/smiled.svg" width="24px" alt=""></a></div>
+                                   <div><a><div><a><img src="./images/calendar.svg" width="24px" alt=""></a></div></a></div>
+                                </div> 
+                               <div>
+                                    <button>Enviar</button>
+                                </div>
+                            </div>  
+                            
+                    </div>
+                    </div>
+                    <div class="user-content">  
+                        <div class="user-post">
+                                <div class="user-photo"><a href=""><img src="images/blue.gif" alt="" width="55px"></a></div>
+                            
+                        </div>
+                        <div class="post">
+                                <div class="name-id"><a href="">Lamp</a>
+                                    <span class="user-id">@lamp</span>
+                                    <div class="name-id-dot"><span>•</span></div>
+                                    <a href="">11 min</a>
+                                </div>
+                        
+                                <div class="post-content">       
+                                    <span>Eu gosto de muitas coisas aaaaaa</span>
+                                </div>  
+                                <div class="post-actives space-between">       
+                                    <div><a><img src="./images/answer.svg" width="20px" alt=""></a></div>
+                                    <div><a><img src="./images/repost.svg" width="20px" alt=""></a></div>
+                                   <div><a><img src="./images/heart.svg" width="20px" alt=""></a></div>
+                                   <div><a><div><a><img src="./images/share.svg" width="20px" alt=""></a></div></a></div>
+                                </div>  
+                        </div>
+                      
+                        
+                    </div>
+                 
+                </div>
+                <div class="column-rose d-sm-none d-md-none">
+                    <div class=" column-title space-between">
+                        <div class="main-span"><span>TÓPICOS POPULARES</span></div>
+                        <div class="main-span-rose"><span>MAIS</span></div>
+                
+                    </div>
+                    <hr>
+                    <div class="topics">
+                        <div class="topic-info"><span>Política</span><span>•</span><span>há 1 hora</span></div>
+                        <div class="topic-body">
+                            <div class="topic-title">
+                                <h4>
+                                    Decisão do STF não exime governo Bolsonaro de ações contra a Covid-19, esclarecem ministros
+                                </h4>
+                            </div>
+                            <div class="topic-image"><img src="./images/corona.jpg" alt=""> </div>
+                        </div>    
+                </div>
+                </div>
+            </div>
+       
+</body>
+<script src="script/jquery-3.4.1.js"></script>
+<script src="script/script.js"></script>
+</html>
